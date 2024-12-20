@@ -3,8 +3,6 @@
 .menu {
   position: fixed;
   top: 0;
-  left: 0;
-  margin-left: 0;
   width: 25%;
   height: 100%;
   background-color: #f8f9fa;
@@ -52,7 +50,7 @@
 }
 .bottom-table td {
   display: block;
-  padding: 10px 198px 10px 10px;
+  padding: 10px 200px 10px 10px;
 }
 .bottom-table .item:hover {
   cursor: pointer;
@@ -74,8 +72,7 @@
 .main {
   margin-left: 25%;
   position: relative;
-  background-color: #d8d5d5;
-  height: 1000px;
+  background-color: #eeebeb;
   padding: 20px;
   top: 0;
 }
@@ -113,4 +110,175 @@
   font-size: 50px;
   float: left;
   margin-top: 10px;
+}
+
+.leftSection {
+  margin-top: 10px;
+}
+.rightSection {
+  margin-top: 10px;
+}
+
+/* Regions and Feeds section */
+
+.regionsAfeed img {
+  width: 100%;
+}
+.regionsAfeed .title {
+  font-weight: normal;
+}
+
+/* General Stats Section */
+
+.generalSection {
+  padding: 50px 60px;
+}
+
+.generalSection .title {
+  font-weight: normal;
+}
+.bars {
+  padding: 8px;
+}
+.progress-container {
+  position: relative;
+  width: 100%;
+  background-color: #afa9a9;
+  height: 40px;
+  color: #fff;
+  margin: 10px auto 10px 0;
+  padding: 0;
+}
+.firstBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #049304 !important;
+  text-align: center;
+}
+.secondBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #e6a121 !important;
+  text-align: center;
+}
+.thirdBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100%;
+  background-color: #ff3838 !important;
+  text-align: center;
+}
+
+/* Countries Section */
+
+.countriesSection .title {
+  font-weight: normal;
+}
+.changeTableColors {
+  border: 5px solid #000;
+}
+.countriesSection button {
+  padding: 12px;
+  background-color: #6c6868;
+  color: #fff;
+}
+.countriesSection button:hover {
+  background-color: #ded9d9;
+  color: #000000;
+  border: none;
+}
+
+/* Recent Users Section */
+
+.recentUsersSection {
+  padding-top: 50px;
+}
+.recentUsersSection .title {
+  font-weight: normal;
+}
+.recentUsersSection img {
+  margin: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.recentUsersSection .title {
+  font-size: 25px;
+}
+
+/* Recent Comments Section */
+
+.recentCommentsSection {
+  padding-top: 50px;
+}
+.recentCommentsSection img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.recentCommentsSection .title {
+  font-weight: normal;
+  font-size: 25px;
+}
+.recentCommentsSection i {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+}
+.recentCommentsSection td {
+  padding: 10px;
+}
+
+/* Abilities Section */
+
+.abilitiesSection {
+  padding: 50px 0 0px;
+  color: #fff;
+  background-color: #6c6868;
+}
+
+.abilitiesSection .color1 {
+  width: 100%;
+  height: 5px;
+  background-color: #00c000;
+}
+.abilitiesSection .color2 {
+  width: 100%;
+  height: 5px;
+  background-color: #ea1212;
+}
+.abilitiesSection .color3 {
+  width: 100%;
+  height: 5px;
+  background-color: #e6a121;
+}
+.item {
+  padding: 20px 0px 40px;
+  float: left;
+}
+.item div {
+  padding: 8px;
+}
+.abilitiesSection .title {
+  font-weight: normal;
+}
+
+/* Footer Section */
+
+.footerSection {
+  padding-top: 30px;
+  a {
+    color: #000000;
+  }
+  .title {
+    font-weight: normal;
+  }
 }

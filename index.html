@@ -9,21 +9,14 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap Links -->
     <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
     <!-- Fontawesome Link -->
     <link rel="stylesheet" href="/fontawesome-free-6.7.1-web/css/all.css" />
   </head>
 
   <body>
-    <div class="">
-      <div class="row fixed-left">
+    <div class="templete">
+      <!-- navbar section -->
+      <div class="row">
         <div class="col-lg-3 menu">
           <div class="row fixed-left">
             <div class="col-lg-12">
@@ -90,9 +83,12 @@
             </div>
           </div>
         </div>
+
+        <!-- main section -->
+
         <div class="col-lg-9 main offset-lg-3">
           <div class="row">
-            <div class="col-lg-12 title">My Dashboard</div>
+            <div class="col-lg-12 title"><i class="fa fa-dashboard"></i> My Dashboard</div>
             <div class="row">
               <div class="col-lg-3 items item-1">
                 <div class="row">
@@ -128,6 +124,234 @@
                 </div>
               </div>
             </div>
+
+            <!-- Regions and Feeds section -->
+
+            <div class="row regionsAfeed">
+              <div class="col-lg-4 leftSection">
+                  <div class="title">Regions</div>
+                  <div><img src="/img/region.jpg" alt=""></div>
+              </div>
+              <div class="col-lg-8 rightSection">
+                <div class="title">Feeds</div>
+                <div>
+                  <table class="table">
+                    <tr>
+                      <td><i class="fa fa-user" style="color: #0080ffea;"></i></td>
+                      <td>New record, over 90 views.</td>
+                      <td><i>10 mins</i></td>
+                    </tr>
+                    <tr>
+                      <td style="background-color: #eeebeb;"><i class="fa fa-bell" style="color: #ff0000;"></i></td>
+                      <td style="background-color: #eeebeb;">Database error.</td>
+                      <td style="background-color: #eeebeb;"><i>15 mins</i></td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa fa-users" style="color: #ffa500;"></i></td>
+                      <td>New record, over 40 users.</td>
+                      <td><i>17 mins</i></td>
+                    </tr>
+                    <tr>
+                      <td style="background-color: #eeebeb;"><i class="fa fa-comment" style="color: #ff0000;"></i></td>
+                      <td style="background-color: #eeebeb;">New comments.</td>
+                      <td style="background-color: #eeebeb;"><i>25 mins</i></td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa fa-bookmark" style="color: #0080ffea;"></i></td>
+                      <td>Check transactions.</td>
+                      <td><i>28 mins</i></td>
+                    </tr>
+                    <tr>
+                      <td style="background-color: #eeebeb;"><i class="fa fa-laptop" style="color: #ff0000;"></i></td>
+                      <td style="background-color: #eeebeb;">CPU overload.</td>
+                      <td style="background-color: #eeebeb;"><i>35 mins</i></td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa fa-share-alt" style="color: #008000;"></i></td>
+                      <td>New shares.</td>
+                      <td><i>39 mins</i></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <!-- General Stats Section -->
+
+            <div class="row generalSection">
+              <div class="col-lg-12 title">General Stats</div>
+              <div class="bars">
+                <div class="col-lg-12">New Visitors</div>
+              <div class="col-lg-12">
+                <div class="progress-container">
+                <div class="progress-bar firstBar">25%</div></div>
+              </div>
+              </div>
+              <div class="bars">
+                <div class="col-lg-12">New Users</div>
+              <div class="col-lg-12">
+                <div class="progress-container">
+                <div class="progress-bar secondBar">50%</div></div>
+              </div>
+              </div>
+              <div class="bars">
+                <div class="col-lg-12">Bounce Rate</div>
+              <div class="col-lg-12">
+                <div class="progress-container">
+                <div class="progress-bar thirdBar">75%</div></div>
+              </div>
+              </div>
+            </div>
+            
+              <!-- Countries section -->
+
+                <div class="countriesSection">
+                  <div class="title">Countries</div>
+                <table class="table changeTableColors">
+                  <tr>
+                    <td>United States</td>
+                    <td><i>65%</i></td>
+                  </tr>
+                  <tr>
+                    <td  style="background-color: #eeebeb;">UK</td>
+                    <td  style="background-color: #eeebeb;"><i>15.7%</i></td>
+                  </tr>
+                  <tr>
+                    <td>Russia</td>
+                    <td><i>5.6%</i></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #eeebeb;">Spain</td>
+                    <td style="background-color: #eeebeb;"><i>2.1%</i></td>
+                  </tr>
+                  <tr>
+                    <td>India</td>
+                    <td><i>1.9%</i></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #eeebeb;">France</td>
+                    <td style="background-color: #eeebeb;"><i>1.5%</i></td>
+                  </tr>
+                </table>
+                <button>More Countries <i class="fa fa-arrow-right"></i></button>
+                </div>
+
+                 <!-- Recent Users Section -->
+
+                <div class="recentUsersSection"> 
+                <div class="title">Recent Users</div>
+                <div class="card shadow-lg">
+                  <div> 
+                    <table>
+                      <tr>
+                        <td><img src="/img/avatar2.png" alt=""></td>
+                        <td class="title">Mike</td>
+                      </tr>
+                    </table>
+                    <hr>
+                    <table>
+                      <tr>
+                        <td><img src="/img/avatar5.png" alt=""></td>
+                        <td class="title">Jill</td>
+                      </tr>
+                    </table>
+                    <hr>
+                    <table>
+                      <tr>
+                        <td><img src="/img/avatar6.png" alt=""></td>
+                        <td class="title">Jane</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recent Comments Section -->
+
+               <div class="recentCommentsSection">
+                <div class="title">Recent Comments</div>
+                <div>
+                  <table>
+                    <tr>
+                      <td rowspan="3">
+                      <img src="/img/avatar3.png" alt="">
+                    </td>
+                  </tr>
+                  <div class="trs">
+                    <tr>
+                      <td><i class="title">John</i> Sep 29, 2014, 9:12 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    </tr>
+                  </div>
+                  </table>
+                  <table>
+                    <tr>
+                      <td rowspan="3">
+                      <img src="/img/avatar1.png" alt="">
+                    </td>
+                  </tr>
+                  <div class="trs">
+                    <tr>
+                      <td><i class="title">Bo</i> Sep 28, 2014, 10:15 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    </tr>
+                  </div>
+                  </table>
+                </div>
+               </div>
+
+                <!-- Abilities Section -->
+
+                <div class="abilitiesSection">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="title">Demographic</div>
+                      <div class="color1"></div>
+                      <div class="item">
+                      <div>Language</div>
+                      <div>Country</div>
+                      <div>City</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="title">System</div>
+                      <div class="color2"></div>
+                      <div class="item">
+                      <div>Browser</div>
+                      <div>OS</div>
+                      <div>More</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="title">Target</div>
+                      <div class="color3"></div>
+                      <div class="item">
+                      <div>Users</div>
+                      <div>Active</div>
+                      <div>Geo</div>
+                      <div>Interests</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Footer Section -->
+
+                <div class="footerSection">
+                  <div class="row">
+                    <div class="col-lg-12 title">
+                      FOOTER
+                    </div>
+                    <div class="col-lg-12">
+                      Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+                    </div>
+                  </div>
+                </div>
+                    
           </div>
         </div>
       </div>
